@@ -1,0 +1,36 @@
+:root {
+   --clr-bkg: rgb(41, 41, 41);
+   --clr-header: rgb(0, 0, 0);
+}
+
+body {
+   background-color: var(--clr-bkg);
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background: var(--clr-header);
+}
+
+nav {
+   display: flex;
+}
+
+.link-container {
+   flex-grow: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+nav a,
+nav button {
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   padding: 40px;
+   background-color: var(--clr-header);
+   cursor: pointer;
+   border: 0;
+}
